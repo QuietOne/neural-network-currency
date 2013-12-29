@@ -37,8 +37,8 @@
       "Recent behaviour"
       (link/info-to-map (link/extract-info curr-from curr-to))
       )
-    (statistics/look
-      "Future behaviour" {})
+    ;(statistics/look
+    ;  "Future behaviour" {})
     (layout
      "Conversion rates"
      [:h2 (string/upper-case curr-from) " to " 
