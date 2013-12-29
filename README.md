@@ -18,6 +18,6 @@ Not yet made.
 
 ## License
 
-Copyright © 2013
+Copyright Â© 2013 Tihomir Radosavljević
 
 Distributed under the Eclipse Public License, the same as Clojure.
