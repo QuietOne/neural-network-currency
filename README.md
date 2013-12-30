@@ -13,11 +13,10 @@ Not yet made.
 ## Using
 
  - Historical currency converter web service http://currencies.apps.grandtrunk.net/ - for getting currency values
- - https://github.com/gigasquid/k9.git - for ANN
  
 
 ## License
 
-Copyright Â© 2013 Tihomir Radosavljević
+Copyright © 2013 Tihomir Radosavljević
 
 Distributed under the Eclipse Public License, the same as Clojure.
