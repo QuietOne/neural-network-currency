@@ -18,7 +18,8 @@ Historical currency converter doesn't update regulary for all currencies, and be
 January 3. 2014. output
 USD to EUR
 
-```Tomorrow: 0.7462855692305682
+```
+Tomorrow: 0.7462855692305682
 Day after tomorrow: 0.7439636342173588
 Day after the day which is after tomorrow: 0.7660484304447854
 ```
