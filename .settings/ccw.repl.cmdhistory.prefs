@@ -1,2 +1,2 @@
-cmdhistory=["(extract-info \\"AED\\")" "(extract-info \\"USD\\")" "(extract-info \\"AED\\")" "(extract-info \\"USD\\")" "(extract-info \\"eur\\" \\"usd\\")"]
+cmdhistory=["(extract-info \\"AED\\")" "(extract-info \\"USD\\")" "(extract-info \\"AED\\")" "(extract-info \\"USD\\")" "(extract-info \\"eur\\" \\"usd\\")" "(get {\:a 1 \:b 2 \:c 3} \:a)" "(get {\:a 1 \:b 2 \:c 3} \:e)" "(link/extract-time (time/plus (time/now) (time/days 1)))" "(link/extract-time (time/plus (time/now) (time/days 3)))" "(compact-time (extract-time (time/now)))" "b" "(extract-info \\"usd\\" \\"eur\\")"]
 eclipse.preferences.version=1
