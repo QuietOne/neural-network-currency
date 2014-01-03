@@ -3,6 +3,7 @@
   (:use incanter.stats)
   (:use incanter.charts)
   (:require [clojure-project.link :as link])
+  (:require [clojure-project.neural :as neural])
   )
 
 
@@ -13,7 +14,7 @@
                   :y-label "Conversion rate")
        ))
 
-(defn stats [data]
+(defn stats [data curr-from curr-to]
   (vector
     :p
     (str "Mean: " (mean (vals data)))
@@ -28,5 +29,10 @@
     "</br>"
     (str "Maximum: " (apply max (vals data)))
     "</br>"
+    (str "Tomorrow: " (neural/get-network-value curr-from curr-to 1))
+    "</br>"
+    (str "Day after tomorrow: " (neural/get-network-value curr-from curr-to 2))
+    "</br>"
+    (str "Day after the day which is after tomorrow: " (neural/get-network-value curr-from curr-to 3))
     )
   )

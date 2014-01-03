@@ -19,5 +19,4 @@
   (route/not-found "Not Found")
   )
 
-
 (def app (wrap-params app-routes))
