@@ -30,20 +30,18 @@
              [:p]
              (submit-button "Confirm"))))
 
-
 (defn output [curr-from curr-to]  
   (do
     (statistics/look
       "Recent behaviour"
       (link/info-to-map (link/extract-info curr-from curr-to))
       )
-    ;(statistics/look
-    ;  "Future behaviour" {})
     (layout
      "Conversion rates"
      [:h2 (string/upper-case curr-from) " to " 
       (string/upper-case curr-to)]
      (statistics/stats 
-      (link/info-to-map (link/extract-info curr-from curr-to))
+      (link/info-to-map (link/extract-info curr-from curr-to)
+                        ) curr-from curr-to                     
       )
      [:a.action {:href "/"} "Choose another currency"])))
