@@ -1,6 +1,6 @@
 # neural-network-currency
 
-This clojure project is for testing neural network ability to predict future currency value with input for NN currency values from past.
+This Clojure project is for testing neural network ability to predict future currency value with input for NN currency values from past.
 
 ## Testing
 
@@ -13,7 +13,7 @@ Purpose of this application is to test ANN (Artificial Neural Network) ability t
 
 ### Predictions
 
-Historical currency converter doesn't update regulary for all currencies, and because of that, it will be tested for USD to EUR
+Historical currency converter doesn't update regularly for all currencies, and because of that, it will be tested for USD to EUR
 
 Output for January 3. 2014.
 ```
@@ -24,6 +24,7 @@ Day after the day which is after tomorrow: 0.7660484304447854
 
 ```
 Value for January 4. 2014: 0.733460466481
+Value for January 5. 2014: 0.733460466481 (P.S. I can't believe it hadn't change either. I double checked it.)
 ```
  
 ## License
