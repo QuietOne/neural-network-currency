@@ -30,12 +30,13 @@ Value for January 6. 2014: 0.735186002059
 
 ### Results
 
+```
 Average sum for prediction: 0.748399355573714733
 Average sum for real value: 0.734035645007
 
 Minimal difference between prediction and output: 0.0105031677363588
 Maximal difference between prediction and output: 0.0308624283857854
-
+```
 Results: doesn't look promising.
  
 ## License
