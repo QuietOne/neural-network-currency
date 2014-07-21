@@ -41,6 +41,6 @@ Results: doesn't look promising.
  
 ## License
 
-Copyright © 2013 Tihomir Radosavljević
+Copyright © 2014 Tihomir Radosavljević
 
 Distributed under the Eclipse Public License, the same as Clojure.
